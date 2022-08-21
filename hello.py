@@ -48,3 +48,12 @@ print(float(45))
 print(int(35))
 # They can even be called on Strings!
 print(int('805') + 46)
+
+alice = 232
+bob = 343
+carol = 452
+
+to_smash = -1
+to_smash = (alice + bob + carol) % 3
+
+print(to_smash)
